@@ -5,3 +5,6 @@
 # KICT-RAIN-AI_ver2
 기법: 매 선행 예측시점별 U-net을 최적화, 1개의 모델이 1개의 예측강우장 생성<br/>
 사전학습된 예측강우 모델: model-best_fcst_10min.h5~model-best_fcst_180min.h5, 18개<br/>
+
+# 구글드라이브 링크 통해 다운로드
+https://drive.google.com/drive/folders/1pe7oxmreQOEz-li8wK3oZ5qKjT4yJCed?usp=drive_link <br/>
