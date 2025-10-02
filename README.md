@@ -3,7 +3,7 @@ KICT AI based RAIN prediction model
 # 모델 설명
 기상청/환경부 레이더 격자 강우, 혹은 강우분포 정보를 이용하여 선행 10분에서 180분까지 예측강우생성하는 딥러닝 U-Net 기반 강우예측모델
 # 모델 실행
-실행환경: Google Colab
+실행환경: Google Colab  <br/>
 실행코드:Inference_KICT_RAIN_AI_525x625_github.ipynb <br/>
 실행코드(2025.10.02):Inference_KICT_RAIN_AI_v3_525x625_github.ipynb <br/> 
 내용: 사전학습된 모델('.h5','.tflite') 이용하여 예측 수행 <br/>
