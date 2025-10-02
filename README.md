@@ -9,3 +9,7 @@ KICT AI based RAIN prediction model
 사전학습모델 1: model-best_rec_180min_f.h5 재귀적 학습 네트워크를 이용하여 사전학습된 예측모델 <br/>
 (참고: 윤성심(2022) 초단시간 강우예측을 위한 U-Net 기반 재귀적 예측 모델, 디지털콘텐츠학회논문지, Vol.23, No.12,pp.2481-2488) <br/>
 사전학습모델 2: model-best_fcst_10min.tflite~model-best_fcst_180min.tflite 각 예측 선행 시점별 최적학습된 예측모델 <br/>
+사전학습모델 3: model-best_fcst_10min_re.tflite~model-best_fcst_180min_re.tflite,각 예측 선행 시점별 최적학습된 예측모델<br/>
+              (갱신정보: 기상청 레이더 관측강우 자료를 활용한 KICT-RAIN-AI_ver2 모델 전이학습 수행<br/>
+
+
