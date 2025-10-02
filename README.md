@@ -5,6 +5,9 @@ KICT AI based RAIN prediction model
 # 모델 실행
 실행환경: Google Colab
 실행코드:Inference_KICT_RAIN_AI_525x625_github.ipynb <br/>
+실행코드(2025.10.02):Inference_KICT_RAIN_AI_v3_525x625_github.ipynb <br/> 
+
+
 내용: 사전학습된 모델('.h5','.tflite') 이용하여 예측 수행 <br/>
 
 사전학습모델 1: model-best_rec_180min_f.h5 재귀적 학습 네트워크를 이용하여 사전학습된 예측모델 <br/>
