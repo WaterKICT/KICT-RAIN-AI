@@ -11,5 +11,14 @@
 갱신정보: 기상청 레이더 관측강우 자료를 활용한 KICT-RAIN-AI_ver2 모델 전이학습 수행<br/>
 사전학습된 예측강우 모델: model-best_fcst_10min_re.tflite~model-best_fcst_180min_re.tflite, 18개<br/>
 
+
+
+# KICT-RAIN-AI_기상청 레이더 데이터 활용 (2026년 11월 4일 갱신)
+기법: 재귀적 학습전략이 포함된 U-net 기반의 모델로, inference에서 재귀적 예측을 사용하지 않더라도 4개의 입력 강우장으로  6개(10분~60분) 예측강우장 생<br/>
+갱신정보: 기상청 레이더 합성장 500m 해상도의 784x784 격자규모로 예측 수행 <br/>
+사전학습된 예측강우 모델: model-best_rec_60min_final.h5 <br/>
+
+
 # 구글드라이브 링크 통해 다운로드
 https://drive.google.com/drive/folders/1pe7oxmreQOEz-li8wK3oZ5qKjT4yJCed?usp=drive_link <br/>
+https://drive.google.com/file/d/1oek-SdhtGS2LGwpbz1JmrIfGYf2ZnbAR/view?usp=drive_link  <br/>
