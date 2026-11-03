@@ -39,3 +39,9 @@ plug-in 설치 파일: kict_rain_ai.v0.1.zip <br/>
 설치 및 활용 방법: KICT_RAIN_AI 사용영상 참고 <br/> 
 내용: 사전학습 모델1, 2를 QGIS에서 예측 실행 <br/>
 
+# 2026년 모델 업데이트
+실행환경: 아나콘다 환경  <br/>
+실행코드: predict_KMA_QPE_500M_h5.py <br/>
+사전학습모델: model-best_rec_60min_final.h5
+내용: 사전학습된 모델('.h5') 이용하여 기상청 레이더 합성장을 이용하여 500m 해상도(784x784 격자 규모) 예측 수행 <br/>
+
